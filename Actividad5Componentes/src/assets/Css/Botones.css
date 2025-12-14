@@ -1,0 +1,13 @@
+.sde-btn {
+  transition: all 0.25s ease;
+}
+
+.sde-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.btn-outline-secondary.sde-btn:hover:not(:disabled) {
+  background-color: var(--bs-secondary);
+  color: #fff;
+}
